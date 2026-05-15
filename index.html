@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="강서 지역 노래방 가격 비교부터 강서역 근처 저렴한 노래방 정보, 시간당 가격, 할인 쿠폰까지 한눈에 확인하세요. 2024년 최신 강서 노래방 가격표와 리뷰까지 제공합니다.">
-    <meta name="keywords" content="강서 노래방 가격 정보,강서 노래방,강서 노래방 가격,강서 노래방 가격 비교,강서역 노래방,강서 노래방 시간당 가격,강서 노래방 할인,강서 노래방 가격표">
     <title>강서 노래방 가격 정보 | 강서 노래방</title>
+    <meta name="description" content="강서 지역별 노래방 가격 정보부터 할인 이벤트, 안주 포함 가격까지 한눈에 확인하세요. 2024년 최신 강서 노래방 가격 비교와 현금 할인 정보까지 제공합니다. 강서공항 인근 노래방 가격도 확인하세요.">
+    <meta name="keywords" content="강서 노래방 가격, 강서 노래방, 노래방 가격 정보, 강서 노래방 주말, 강서 2인 노래방, 강서 3시간 노래방, 강서 노래방 할인, 강서 노래방 안주, 강서 노래방 비교, 2024 강서 노래방">
+    <link rel="canonical" href="https://example.com/gangseo-noraebang">
     <meta property="og:type" content="website">
     <meta property="og:title" content="강서 노래방 가격 정보 | 강서 노래방">
-    <meta property="og:description" content="강서 지역 노래방 가격 비교부터 강서역 근처 저렴한 노래방 정보, 시간당 가격, 할인 쿠폰까지 한눈에 확인하세요. 2024년 최신 강서 노래방 가격표와 리뷰까지 제공합니다.">
-    <meta property="og:url" content="https://example.com">
+    <meta property="og:description" content="강서 지역별 노래방 가격 정보부터 할인 이벤트, 안주 포함 가격까지 한눈에 확인하세요.">
+    <meta property="og:url" content="https://example.com/gangseo-noraebang">
+    <meta property="og:image" content="https://example.com/images/og-image.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="강서 노래방 가격 정보 | 강서 노래방">
-    <meta name="twitter:description" content="강서 지역 노래방 가격 비교부터 강서역 근처 저렴한 노래방 정보, 시간당 가격, 할인 쿠폰까지 한눈에 확인하세요. 2024년 최신 강서 노래방 가격표와 리뷰까지 제공합니다.">
-    <link rel="canonical" href="https://example.com">
+    <meta name="twitter:description" content="강서 지역별 노래방 가격 정보부터 할인 이벤트, 안주 포함 가격까지">
     <style>
         :root {
-            --primary: #12062e;
-            --secondary: #1a0a3e;
-            --accent: #e040fb;
-            --font-main: 'Pretendard', sans-serif;
+            --primary-color: #12062e;
+            --secondary-color: #1a0a3e;
+            --accent-color: #e040fb;
+            --text-color: #ffffff;
+            --bg-color: #0f0a1f;
+            --card-bg: rgba(26, 10, 62, 0.7);
         }
 
         * {
@@ -29,347 +32,306 @@
         }
 
         body {
-            font-family: var(--font-main), sans-serif;
+            font-family: 'Pretendard', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
             line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
+            overflow-x: hidden;
         }
 
-        .pg-grid-p3pf {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
+        .el-list-w66j {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
         }
 
-        header {
-            background-color: var(--primary);
-            color: white;
-            padding: 20px 0;
+        .bx-txt-2xmp {
+            flex: 1;
+        }
+
+        .bx-txt-dt3i {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            padding: 1rem 0;
             position: sticky;
             top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 100;
         }
 
-        .el-ico-7jze {
+        .el-nav-x4uy-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .el-nav-x4uy-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .el-nav-x4uy-menu {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .pg-foot-h7pl {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        nav ul {
-            display: flex;
+            justify-content: center;
             list-style: none;
-            gap: 30px;
+            gap: 2rem;
         }
 
-        nav a {
-            color: white;
+        .el-nav-x4uy-menu a {
+            color: var(--text-color);
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
         }
 
-        nav a:hover {
-            color: var(--accent);
+        .el-nav-x4uy-menu a:hover {
+            color: var(--accent-color);
         }
 
-        .pg-side-xqxr {
-            display: none;
-            flex-direction: column;
-            gap: 10px;
+        .sf-hero-zqnj {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .ui-item-ix92 {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            padding: 4rem 1rem;
+            margin: 2rem -1rem;
+            border-radius: 0 0 2rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ui-item-ix92::after {
+            content: '';
             position: absolute;
-            top: 100%;
+            bottom: 0;
             left: 0;
             width: 100%;
-            background-color: var(--primary);
-            padding: 20px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            height: 5rem;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" fill="%2312062e"></path><path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" fill="%231a0a3e"></path><path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="%23e040fb"></path></svg>') no-repeat;
+            background-size: cover;
         }
 
-        main {
-            padding: 60px 0;
+        .ui-item-ix92 h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
         }
 
-        section {
-            margin-bottom: 80px;
-            background: white;
-            border-radius: 10px;
-            padding: 40px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        .ui-item-ix92 p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
         }
 
-        .bx-item-72tk {
+        .bx-item-2091 {
+            margin: 4rem 0;
+            padding: 2rem 0;
+        }
+
+        .bx-item-2091-title {
+            font-size: 2rem;
+            margin-bottom: 2rem;
             text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .bx-foot-qxuz {
-            font-size: 48px;
-            color: var(--primary);
-            margin-bottom: 20px;
+            color: var(--accent-color);
             position: relative;
         }
 
-        .bx-foot-qxuz::after {
-            content: "";
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 4px;
-            background: var(--accent);
-            border-radius: 2px;
+        .bx-item-2091-title::after {
+            content: '✨';
+            margin-left: 0.5rem;
         }
 
-        .ui-body-yij9 {
-            font-size: 24px;
-            font-weight: 600;
-            margin-bottom: 15px;
-            color: var(--primary);
-        }
-
-        .cx-wrap-eqe0 {
+        .bx-item-2091-content {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
+            gap: 2rem;
         }
 
-        .bx-txt-3hsq {
-            padding: 30px 20px;
-            border-radius: 8px;
-            transition: all 0.3s;
-            text-align: center;
-            border: 1px solid #eee;
+        .pg-grid-meua {
+            background: var(--card-bg);
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(224, 64, 251, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
         }
 
-        .bx-txt-3hsq:hover {
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        .pg-grid-meua:hover {
             transform: translateY(-5px);
+            box-shadow: 0 12px 48px rgba(224, 64, 251, 0.2);
         }
 
-        .pg-grid-p3pf0 {
-            font-size: 24px;
-            margin-bottom: 10px;
+        .pg-grid-meua-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
         }
 
-        .pg-grid-p3pf1 {
-            color: var(--accent);
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 10px;
+        .pg-grid-meua h3 {
+            margin-bottom: 1rem;
+            color: var(--accent-color);
         }
 
-        .pg-grid-p3pf2 {
-            color: #666;
-            font-size: 14px;
+        .pg-grid-meua ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
         }
 
-        .pg-grid-p3pf3 {
-            margin: 40px 0;
-            padding: 30px;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            border-radius: 10px;
-            text-align: center;
+        .pg-grid-meua li {
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-left: 1rem;
         }
 
-        .pg-grid-p3pf4 {
-            color: var(--primary);
-            font-weight: 600;
-            margin-bottom: 15px;
+        .pg-grid-meua li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
         }
 
-        .pg-grid-p3pf5 {
-            display: flex;
-            gap: 30px;
-            justify-content: center;
-            margin-top: 30px;
-            flex-wrap: wrap;
+        .ui-foot-t16x {
+            max-width: 800px;
+            margin: 0 auto;
         }
 
-        .pg-grid-p3pf6 {
-            padding: 15px 30px;
-            background: var(--accent);
-            color: white;
-            border: none;
-            border-radius: 50px;
-            font-weight: bold;
+        .ui-foot-t16x-item {
+            background: var(--card-bg);
+            margin-bottom: 1rem;
+            border-radius: 0.5rem;
+        }
+
+        .ui-foot-t16x-question {
+            padding: 1.5rem;
             cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .pg-grid-p3pf6:hover {
-            background: #c035d1;
-            transform: scale(1.05);
-        }
-
-        .pg-grid-p3pf7 {
             display: flex;
-            gap: 20px;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 40px 0;
-        }
-
-        .pg-grid-p3pf8 {
-            color: var(--secondary);
+            justify-content: space-between;
+            align-items: center;
             font-weight: 600;
-            font-size: 18px;
         }
 
-        .pg-grid-p3pf9 {
-            text-align: center;
-            margin: 60px 0 40px;
+        .ui-foot-t16x-answer {
+            padding: 0 1.5rem 1.5rem;
+            display: none;
         }
 
-        .el-ico-7jze0 {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
+        .ui-foot-t16x-item.active .ui-foot-t16x-answer {
+            display: block;
         }
 
-        .el-ico-7jze1 {
+        .ui-foot-t16x-toggle {
+            font-size: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .cx-side-u815-container {
+            margin: 2rem 0;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .cx-side-u815-container iframe {
             width: 100%;
             height: 400px;
-            background-color: #f0f0f0;
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #999;
-            font-size: 18px;
+            border: none;
         }
 
-        footer {
-            background-color: var(--secondary);
-            color: white;
-            padding: 40px 0 20px;
+        .el-box-abai {
             text-align: center;
+            margin: 2rem 0;
         }
 
-        .el-ico-7jze2 {
-            margin-bottom: 20px;
-        }
-
-        .el-ico-7jze3 {
-            margin-bottom: 10px;
-        }
-
-        a {
-            color: var(--accent);
+        .el-box-abai a {
+            color: var(--accent-color);
             text-decoration: none;
+            font-size: 1.2rem;
+            margin: 0 0.5rem;
         }
 
-        a:hover {
+        .el-box-abai a:hover {
             text-decoration: underline;
         }
 
+        .pg-ico-4yi3 {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            padding: 2rem 1rem;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        .pg-ico-4yi3 p {
+            margin-bottom: 0.5rem;
+        }
+
+        .pg-ico-4yi3 a {
+            color: var(--accent-color);
+        }
+
         @media (max-width: 768px) {
-            .el-ico-7jze {
-                flex-direction: column;
-                gap: 15px;
+            .el-nav-x4uy-toggle {
+                display: block;
+                position: absolute;
+                right: 1rem;
+                top: 1rem;
             }
 
-            nav ul {
+            .el-nav-x4uy-menu {
                 display: none;
                 flex-direction: column;
+                gap: 1rem;
                 width: 100%;
-                gap: 15px;
-                padding: 20px 0;
+                background: var(--card-bg);
+                padding: 1rem;
+                border-radius: 0.5rem;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                margin-top: 0.5rem;
             }
 
-            nav ul.active {
+            .el-nav-x4uy-menu.active {
                 display: flex;
             }
 
-            .pg-side-xqxr {
-                display: none;
+            .ui-item-ix92 h1 {
+                font-size: 1.8rem;
             }
 
-            .cx-wrap-eqe0 {
-                grid-template-columns: 1fr;
+            .ui-item-ix92 p {
+                font-size: 1rem;
             }
 
-            .pg-grid-p3pf5, .pg-grid-p3pf7, .el-ico-7jze0 {
-                flex-direction: column;
-            }
-
-            .pg-grid-p3pf6 {
-                width: 100%;
+            .bx-item-2091-title {
+                font-size: 1.5rem;
             }
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="pg-grid-p3pf el-ico-7jze">
-            <div class="pg-foot-h7pl">강서 노래방 가격</div>
-            <button class="pg-side-xqxr" id="mobile-toggle">메뉴</button>
-            <nav>
-                <ul id="nav-menu">
-                    <li><a href="#section1">소개</a></li>
-                    <li><a href="#section2">서비스</a></li>
-                    <li><a href="#section3">FAQ</a></li>
-                    <li><a href="#section4">문의</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main class="pg-grid-p3pf">
-        <section id="section1">
-            <div class="bx-item-72tk">
-                <h1 class="bx-foot-qxuz">강서 노래방 가격 정보</h1>
-                <p class="ui-body-yij9">강서 지역 노래방 가격부터 할인 정보까지 한눈에 확인하세요</p>
+    <div class="el-list-w66j">
+        <header class="bx-txt-dt3i">
+            <div class="el-nav-x4uy-container">
+                <button class="el-nav-x4uy-toggle" aria-label="메뉴">☰</button>
+                <nav>
+                    <ul class="el-nav-x4uy-menu">
+                        <li><a href="#intro">소개</a></li>
+                        <li><a href="#services">서비스</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">문의하기</a></li>
+                    </ul>
+                </nav>
             </div>
+        </header>
 
-            <div class="cx-wrap-eqe0">
-                <div class="bx-txt-3hsq">
-                    <div class="pg-grid-p3pf0">🎤 가격 비교</div>
-                    <div class="pg-grid-p3pf1">강서구 노래방 가격 비교</div>
-                    <p class="pg-grid-p3pf2">강서구 내 노래방별 시간당 가격과 부가비용을 비교 분석했습니다.</p>
-                </div>
-                <div class="bx-txt-3hsq">
-                    <div class="pg-grid-p3pf0">🎵 위치별 추천</div>
-                    <div class="pg-grid-p3pf1">강서역 근처 노래방 가격</div>
-                    <p class="pg-grid-p3pf2">강서역 인근 노래방의 최신 가격과 위치 정보를 제공합니다.</p>
-                </div>
-                <div class="bx-txt-3hsq">
-                    <div class="pg-grid-p3pf0">⏰ 시간대별</div>
-                    <div class="pg-grid-p3pf1">강서 노래방 시간당 가격</div>
-                    <p class="pg-grid-p3pf2">평일/주말/심야시간대별 가격 차이를 정리했습니다.</p>
-                </div>
-                <div class="bx-txt-3hsq">
-                    <div class="pg-grid-p3pf0">💰 할인 정보</div>
-                    <div class="pg-grid-p3pf1">강서 노래방 할인 정보</div>
-                    <p class="pg-grid-p3pf2">최신 프로모션과 단체할인 정보를 확인하세요.</p>
-                </div>
-            </div>
-
-            <div class="pg-grid-p3pf3">
-                <div class="pg-grid-p3pf4">2024년 최신 강서 노래방 가격 정보</div>
-                <p>강서 지역 내 모든 노래방의 가격표와 리뷰를 정리했습니다. 예약 시 할인 쿠폰도 확인하세요!</p>
-                <div class="pg-grid-p3pf5">
-                    <button class="pg-grid-p3pf6">가격 비교하기</button>
-                    <button class="pg-grid-p3pf6">할인 정보 보기</button>
-                </div>
-            </div>
-
-            <h2 class="pg-grid-p3pf8">강서 지역 노래방 가격의 모든 것</h2>
-            <p>강서 지역은 서울의 서쪽에 위치한 지역으로, 많은 사람들이 편안한 시간을 보내기 위해 노래방을 찾습니다. 하지만 각 노래방마다 가격 정책이 다르기 때문에 어떤 곳을 이용해야 할지 고민이 많습니다. 이 페이지에서는 강서 지역 내 노래방의 가격 정보와 할인 정책, 그리고 시간대별 가격 비교까지 한눈에 볼 수 있도록 정리했습니다.</p>
-
-            <p>강서 노래방 가격은 대부분 시간당 기준으로 책정되며, 시즌이나 이벤트에 따라 할인율이 달라집니다. 또한 평일과 주말의 가격 차이가 심하기 때문에 예약 전 반드시 확인해야 합니다. 강서역 근처는 교통이 편리하지만 인기가 많아 가격이 상대적으로 높은 편입니다. 반면 한적한 동네의 경우 조금 저렴한 가격으로 이용할 수 있습니다.</p>
-
-            <p>이 외에도 단체 예약이나 학생 할인 등 다양한 프로모션이 있으니 이용 전에 미리 확인하는 것이 좋습니다. 강서 지역은 크게 강서구와 양천구로 나뉘며, 각 지역별로 특색이 있습니다. 이 글에서 제공하는 정보를 바탕으로 자신에게 맞는 최적의 노래방을 선택하세요.</p>
-        </section>
+        <main class="bx-txt-2xmp">
+            <section class="ui-item-ix92" id="intro">
+                <h1>강서 노래방 가격 정보</h1>
+                <p>강서 지역별 노래방 가격부터 할인 정보까지 한눈에 확인하세요</p>
+            </section>
 
 <!-- SEO Visual 2: 노래방 서비스 카드 -->
 <div class="seo-visual-cards" role="img" aria-label="강서 노래방 가격 정보 노래방 — 코인 노래방 정보" 
@@ -389,244 +351,305 @@
   </div>
 </div>
 
-        <section id="section2">
-            <div class="bx-item-72tk">
-                <h2 class="bx-foot-qxuz">강서 노래방 가격표 2024</h2>
-            </div>
+            <section class="sf-hero-zqnj">
 
-            <div class="pg-grid-p3pf7">
-                <div>
-                    <h3>시간당 기준 가격 비교</h3>
-                    <p>강서 지역 노래방의 시간당 가격을 평일/주말로 나누어 정리했습니다. 참고로 가격은 2024년 6월 기준이며, 모든 가격을 포함합니다.</p>
-                    <ul>
-                        <li><strong>강서구</strong> - 1시간: 15,000원 ~ 25,000원 (평일) / 20,000원 ~ 30,000원 (주말)</li>
-                        <li><strong>양천구</strong> - 1시간: 12,000원 ~ 22,000원 (평일) / 17,000원 ~ 28,000원 (주말)</li>
-                        <li><strong>강서역 인근</strong> - 1시간: 18,000원 ~ 30,000원 (평일) / 22,000원 ~ 35,000원 (주말)</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3>부가비용 안내</h3>
-                    <p>시간당 가격 이외에 추가로 발생할 수 있는 비용들입니다.</p>
-                    <ul>
-                        <li>초과시간: 10분당 2,000원 ~ 3,000원 추가</li>
-                        <li>음료 및 안주: 5,000원 ~ 15,000원</li>
-                        <li>부가서비스(선물박스, 이벤트): 3,000원 ~ 10,000원</li>
-                        <li>노래방 시스템 사용료: 1,000원 ~ 2,000원</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="pg-grid-p3pf9">
-                <h3>강서 노래방 할인 정책</h3>
-                <p>많이 이용하는 강서 지역 노래방의 할인 정책을 정리했습니다. 할인 정보는 항상 변동이 있으니 예약 전 반드시 확인하세요.</p>
-
-                <div class="el-ico-7jze0">
-                    <div class="el-ico-7jze1">네이버 지도</div>
-                    <div class="el-ico-7jze1">구글 지도</div>
-                </div>
-            </div>
-
-            <div class="pg-grid-p3pf3">
-                <div class="pg-grid-p3pf4">강서 지역별 추천 노래방</div>
-                <p>각 지역별로 추천하는 노래방과 가격 정보를 제공합니다. 자신에게 맞는 곳을 선택하세요.</p>
-
-                <div class="cx-wrap-eqe0">
-                    <div class="bx-txt-3hsq">
-                        <div class="pg-grid-p3pf0">📍 강서구 추천</div>
-                        <div class="pg-grid-p3pf1">저렴한 곳 찾기</div>
-                        <p class="pg-grid-p3pf2">강서구에서 가장 저렴한 가격으로 이용할 수 있는 노래방을 추천합니다.</p>
+<!-- SEO Visual 1: 강서 노래방 가격 정보 히어로 비주얼 -->
+<div class="seo-visual-hero" role="img" aria-label="코인 노래방 정보 — 강서 강서 노래방 가격 정보" 
+     style="width:100%;height:320px;background:linear-gradient(135deg,#2563eb,#2563ebdd);position:relative;overflow:hidden;margin:20px 0;border-radius:16px">
+  <svg viewBox="0 0 1200 320" style="position:absolute;bottom:0;opacity:.15;width:100%;height:100%"><path d="M0,280 C150,240 300,200 500,220 C700,240 850,160 950,180 C1050,200 1150,260 1200,280 L1200,320 L0,320Z" fill="#fff"/></svg>
+  <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff">
+    <div style="font-size:4em">🎤</div>
+    <div style="font-size:1.1em;margin-top:8px;opacity:.9;font-weight:500">강서 노래방 가격 정보</div>
+  </div>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"강서 노래방 가격 정보","description":"코인 노래방 정보","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
+</div>
+                <h2 class="bx-item-2091-title">강서 노래방 가격, 지역별로 비교해보세요</h2>
+                <div class="bx-item-2091-content">
+                    <div class="pg-grid-meua" loading="lazy">
+                        <div class="pg-grid-meua-icon">🎤</div>
+                        <h3>강서구 등촌동</h3>
+                        <ul>
+                            <li>2인 기준: 5,000-7,000원</li>
+                            <li>3시간 이용료: 15,000-20,000원</li>
+                            <li>주말 추가 금액: +2,000-3,000원</li>
+                        </ul>
+                        <p>등촌동은 접근성이 좋아 주로 주말에 이용객이 많습니다. 미리 예약하는 것이 좋습니다.</p>
                     </div>
-                    <div class="bx-txt-3hsq">
-                        <div class="pg-grid-p3pf0">🏆 인기 많은 곳</div>
-                        <div class="pg-grid-p3pf1">강서역 접근성 좋은 곳</div>
-                        <p class="pg-grid-p3pf2">강서역에서 가까우면서도 가격대가 합리적인 곳을 소개합니다.</p>
+
+                    <div class="pg-grid-meua" loading="lazy">
+                        <div class="pg-grid-meua-icon">🎵</div>
+                        <h3>강서구 화곡동</h3>
+                        <ul>
+                            <li>1인 기준: 4,000-6,000원</li>
+                            <li>2시간 이용료: 12,000-16,000원</li>
+                            <li>현금 할인: 5-10% 추가 할인 가능</li>
+                        </ul>
+                        <p>화곡동은 비교적 저렴한 가격대가 특징입니다. 안주와 함께 이용하면 더 좋습니다.</p>
+                    </div>
+
+                    <div class="pg-grid-meua" loading="lazy">
+                        <div class="pg-grid-meua-icon">🎧</div>
+                        <h3>강서구 가양동</h3>
+                        <ul>
+                            <li>1시간 이용료: 8,000-12,000원</li>
+                            <li>기기당 추가 금액: +2,000원</li>
+                            <li>단체 할인: 3인 이상 10% 할인</li>
+                        </ul>
+                        <p>가양동은 시설이 좋은 곳이 많아 단체 이용이 많습니다. 미리 문의하세요.</p>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <section id="section3">
-            <div class="bx-item-72tk">
-                <h2 class="bx-foot-qxuz">자주 묻는 질문</h2>
-            </div>
+                <section class="bx-item-2091" id="services">
+                    <h2 class="bx-item-2091-title">할인 이벤트와 특별한 서비스</h2>
+                    <div class="bx-item-2091-content">
+                        <div class="pg-grid-meua" loading="lazy">
+                            <div class="pg-grid-meua-icon">🎁</div>
+                            <h3>주말 특별 할인 이벤트</h3>
+                            <p>매주 토요일 오후 3시 이후 2시간 이용시 1시간 무료 제공</p>
+                        </div>
 
-            <div class="pg-grid-p3pf7">
-                <div>
-                    <h3>Q. 강서 노래방의 평균 가격은 얼마인가요?</h3>
-                    <p><strong>평일 평균 15,000원 ~ 25,000원</strong>, <strong>주말 평균 20,000원 ~ 30,000원</strong>입니다. 강서역 인근은 5,000원 ~ 10,000원 정도 비싸며, 한적한 동네는 조금 저렴한 편입니다.</p>
-                </div>
+                        <div class="pg-grid-meua" loading="lazy">
+                            <div class="pg-grid-meua-icon">🍗</div>
+                            <h3>안주 포함 패키지</h3>
+                            <p>치킨 1마리 + 음료 2병 + 2시간 이용: 25,000원</p>
+                        </div>
 
-                <div>
-                    <h3>Q. 강서 노래방은 언제 예약하는 것이 좋을까요?</h3>
-                    <p><strong>평일 낮 시간대(오전 10시 ~ 오후 4시)</strong>가 가장 저렴합니다. 저녁 시간대(오후 6시 ~ 10시)는 주말과 비슷하거나 조금 비싼 경우가 많습니다. 또한 연말연시나 성수기(12월 ~ 2월)는 가격이 인상되는 경우가 있으니 참고하세요.</p>
-                </div>
+                        <div class="pg-grid-meua" loading="lazy">
+                            <div class="pg-grid-meua-icon">💰</div>
+                            <h3>현금 결제 할인</h3>
+                            <p>카드 결제 시 5% 추가 할인(현금 결제 한정)</p>
+                        </div>
 
-                <div>
-                    <h3>Q. 강서 노래방에서 할인을 받을 수 있는 방법은?</h3>
-                    <p>대부분의 노래방에서 <strong>단체 할인(5인 이상)</strong>, <strong>학생 할인(학생증 소지)</strong>, <strong>기념일 쿠폰</strong> 등을 제공합니다. 또한 앱을 통한 예약이나 멤버십 가입 시 추가 할인을 받을 수 있습니다. 자주 이용하는 분들은 멤버십 가입을 고려해보세요.</p>
-                </div>
-            </div>
+                        <div class="pg-grid-meua" loading="lazy">
+                            <div class="pg-grid-meua-icon">📱</div>
+                            <h3>모바일 결제 특가</h3>
+                            <p>네이버페이/카카오페이로 결제 시 1,000원 추가 할인</p>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="pg-grid-p3pf3">
-                <div class="pg-grid-p3pf4">추가 문의 사항</div>
-                <p>위 FAQ 이외에도 궁금한 점이 있다면 언제든지 연락주세요. 강서 지역 노래방에 대한 모든 정보를 제공합니다.</p>
-                <div class="pg-grid-p3pf5">
-                    <a href="#section4" class="pg-grid-p3pf6">문의하기</a>
-                </div>
-            </div>
-        </section>
+                <section class="bx-item-2091">
+                    <h3 class="bx-item-2091-title">2024년 강서 노래방 최신 가격 동향</h3>
+                    <p>2024년 들어서 강서 지역 노래방 가격은 인상되었습니다. 특히 주말과 공휴일은 10-20%의 추가 요금이 발생합니다. 가능한 일찍 예약하고, 할인 이벤트를 활용하세요.</p>
+                    <p>강서공항 nearby 노래방들은 관광객을 타겟으로 slightly 높은 가격을 책정하기도 합니다. 가격을 비교하신 후 이용하시는 것이 좋습니다.</p>
+                </section>
 
-        <section id="section4">
-            <div class="bx-item-72tk">
-                <h2 class="bx-foot-qxuz">문의 사항</h2>
-            </div>
+                <section class="bx-item-2091">
+                    <h3 class="bx-item-2091-title">강서 노래방 이용 팁</h3>
+                    <div class="bx-item-2091-content">
+                        <div class="pg-grid-meua" loading="lazy">
+                            <h4>예약 필수</h4>
+                            <p>주말이나 저녁 시간대는 대부분 예약으로 꽉 차 있습니다. 미리 예약하세요.</p>
+                        </div>
 
-            <p>강서 노래방에 대한 문의사항이나 추가 정보가 필요하신가요? 아래 연락처로 연락주세요. 강서 지역 내 모든 노래방의 가격 정보와 할인 정책, 예약 방법 등을 상세히 안내해드립니다.</p>
+                        <div class="pg-grid-meua" loading="lazy">
+                            <h4>시간 관리</h4>
+                            <p>최대 이용 가능 시간은 보통 3시간입니다. 초과 시 추가 요금이 발생합니다.</p>
+                        </div>
 
-            <div class="pg-grid-p3pf3">
-                <div class="pg-grid-p3pf4">연락처</div>
-                <div class="el-ico-7jze2"><strong>전화번호:</strong> <a href="tel:010-8731-0142">010-8731-0142</a></div>
-                <div class="el-ico-7jze3"><strong>이메일:</strong> <a href="mailto:help@example.com">help@example.com</a></div>
-                <p>운영 시간: 평일 09:00 ~ 18:00 (주말/공휴일 휴무)</p>
-            </div>
-        
+                        <div class="pg-grid-meua" loading="lazy">
+                            <h4>장비 체크</h4>
+                            <p>기기 상태가 좋지 않은 곳도 있으니 예약 시 미리 확인하세요.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="ui-foot-t16x" id="faq">
+                    <h2 class="bx-item-2091-title">자주 묻는 질문</h2>
+                    <div class="ui-foot-t16x-item">
+                        <div class="ui-foot-t16x-question">
+                            <span>강서 노래방에서 2인이면 몇 시간 이용할 수 있나요?</span>
+                            <span class="ui-foot-t16x-toggle">+</span>
+                        </div>
+                        <div class="ui-foot-t16x-answer">
+                            <p>2인 기준으로는 보통 2-3시간 이용 가능합니다. 기기당 추가 요금이 발생하지 않기 때문에 가격 대비 효율적인 이용이 가능합니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="ui-foot-t16x-item">
+                        <div class="ui-foot-t16x-question">
+                            <span>강서 노래방에서 안주와 함께 이용할 수 있나요?</span>
+                            <span class="ui-foot-t16x-toggle">+</span>
+                        </div>
+                        <div class="ui-foot-t16x-answer">
+                            <p>네, 대부분의 강서 지역 노래방에서 안주 주문 가능합니다. 치킨, 피자, 과일 안주 등 다양한 메뉴를 제공합니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="ui-foot-t16x-item">
+                        <div class="ui-foot-t16x-question">
+                            <span>강서 노래방에서 현금 할인 혜택이 있나요?</span>
+                            <span class="ui-foot-t16x-toggle">+</span>
+                        </div>
+                        <div class="ui-foot-t16x-answer">
+                            <p>네, 현금 결제 시 5-10%의 할인 혜택을 제공하는 곳이 많습니다. 카드 결제 시에는 적용되지 않을 수 있으니 참고하세요.</p>
+                        </div>
+                    </div>
+
+                    <div class="ui-foot-t16x-item">
+                        <div class="ui-foot-t16x-question">
+                            <span>강서공항 근처 노래방은 가격이 비싸나요?</span>
+                            <span class="ui-foot-t16x-toggle">+</span>
+                        </div>
+                        <div class="ui-foot-t16x-answer">
+                            <p>일반적으로는 다른 지역과 비슷한 가격대이지만, 관광객을 타겟으로 slightly 높은 가격을 책정하기도 합니다. 미리 전화로 문의하세요.</p>
+                        </div>
+                    </div>
+
+                    <div class="ui-foot-t16x-item">
+                        <div class="ui-foot-t16x-question">
+                            <span>강서 노래방에서 3시간 이용 시 추가 요금이 있나요?</span>
+                            <span class="ui-foot-t16x-toggle">+</span>
+                        </div>
+                        <div class="ui-foot-t16x-answer">
+                            <p>대부분의 강서 지역 노래방에서는 3시간까지는 기본 요금으로 이용 가능합니다. 초과 시 분당 추가 요금이 발생합니다.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="cx-side-u815-container">
+                    <h3 class="bx-item-2091-title">강서 노래방 위치 안내</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.2!2d126.8416!3d37.5665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c99f4b8e3b0d%3A0x20c4e8b0a0e9f4e!5e0!3m2!1s!2s!5m2!1s!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+
+                <section class="bx-item-2091" id="contact">
+                    <h2 class="bx-item-2091-title">문의하기 및 예약</h2>
+                    <div class="el-box-abai">
+                        <p>문의사항이나 예약은 전화 또는 문자로 연락주시면 친절히 안내해드리겠습니다.</p>
+                        <p>
+                            <a href="tel:010-8731-0142">010-8731-0142</a>으로 연락주세요
+                        </p>
+                    </div>
+                </section>
+            
 <div class="seo-visual-divider" role="separator" aria-label="강서 노래방 가격 정보 섹션 구분" style="margin:16px 0"><svg viewBox="0 0 1200 120" style="width:100%;height:60px"><path d="M0,40 C150,80 300,20 500,40 C700,60 850,20 950,35 C1050,50 1150,70 1200,60 L1200,120 L0,120Z" fill="#2563eb" opacity="0.12"/></svg></div>
 </section>
-    </main>
+        </main>
 
-    <footer>
-        <div class="pg-grid-p3pf">
-            <div class="el-ico-7jze2">© 2024 강서 노래방 가격 정보. All rights reserved.</div>
-            <div class="el-ico-7jze3">대표: 김개발</div>
-            <div class="el-ico-7jze3">주소: 서울 강서구 등촌로 360</div>
-            <div class="el-ico-7jze3">문의: <a href="tel:010-8731-0142">010-8731-0142</a></div>
-        </div>
-    </footer>
+        <footer class="pg-ico-4yi3">
+            <p><strong>강서 노래방 가격 정보</strong></p>
+            <p>서울 강서구 강서로 X번길 Y (지도 참조)</p>
+            <p>대표: 강서 노래방 가격 정보</p>
+            <p>📞 <a href="tel:010-8731-0142">010-8731-0142</a></p>
+            <p>Copyright © 2024. All rights reserved.</p>
+        </footer>
+    </div>
 
     <script defer>
-        // 모바일 메뉴 토글
-        const mobileToggle = document.getElementById('mobile-toggle');
-        const navMenu = document.getElementById('nav-menu');
+        // FAQ 토글 기능
+        document.querySelectorAll('.ui-foot-t16x-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                const toggle = question.querySelector('.ui-foot-t16x-toggle');
 
-        mobileToggle.addEventListener('click', () => {
+                item.classList.toggle('active');
+                toggle.textContent = item.classList.contains('active') ? '−' : '+';
+            });
+        });
+
+        // 모바일 메뉴 토글 기능
+        const navToggle = document.querySelector('.el-nav-x4uy-toggle');
+        const navMenu = document.querySelector('.el-nav-x4uy-menu');
+
+        navToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
         });
 
-        // smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // lazy loading 이미지 대체
-        if ('loading' in HTMLImageElement.prototype) {
-            const images = document.querySelectorAll('img[loading="lazy"]');
-            images.forEach(img => {
-                img.src = img.dataset.src;
-            });
-        }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "https://example.com/#organization",
-        "name": "강서 강서 노래방 가격 정보",
-        "description": "강서 지역 노래방 가격 정보와 할인 정책, 시간당 가격 비교 등을 제공하는 서비스",
-        "telephone": "+8201087310142",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "서울 강서구 등촌로 360",
-            "addressLocality": "강서구",
-            "addressRegion": "서울",
-            "postalCode": "07550",
-            "addressCountry": "KR"
-        },
-        "openingHours": "Mo-Fr 09:00-18:00",
-        "priceRange": "₩12,000-₩35,000",
-        "image": "https://example.com/logo.png",
-        "hasMap": "https://www.google.com/maps/place/서울+강서구+등촌로+360",
-        "sameAs": [
-            "https://www.facebook.com/example",
-            "https://www.instagram.com/example"
-        ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "강서 노래방의 평균 가격은 얼마인가요?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "평일 평균 15,000원 ~ 25,000원, 주말 평균 20,000원 ~ 30,000원입니다. 강서역 인근은 5,000원 ~ 10,000원 정도 비싸며, 한적한 동네는 조금 저렴한 편입니다."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "강서 노래방은 언제 예약하는 것이 좋을까요?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "평일 낮 시간대(오전 10시 ~ 오후 4시)가 가장 저렴합니다. 저녁 시간대(오후 6시 ~ 10시)는 주말과 비슷하거나 조금 비싼 경우가 많습니다."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "강서 노래방에서 할인을 받을 수 있는 방법은?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "단체 할인(5인 이상), 학생 할인(학생증 소지), 기념일 쿠폰 등을 제공합니다. 앱을 통한 예약이나 멤버십 가입 시 추가 할인을 받을 수 있습니다."
-                }
-            }
-        ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
+        // BreadcrumbList 스키마 추가
+        const breadcrumbSchema = {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
                 "@type": "ListItem",
                 "position": 1,
-                "name": "홈",
-                "item": "https://example.com"
-            },
-            {
+                "name": "강서 노래방 가격 정보",
+                "item": "https://example.com/gangseo-noraebang"
+            },{
                 "@type": "ListItem",
                 "position": 2,
-                "name": "강서 노래방 가격 정보",
-                "item": "https://example.com#section1"
-            }
-        ]
-    }
-    </script>
+                "name": "서비스"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "FAQ"
+            }]
+        };
 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "강서 강서 노래방 가격 정보",
-        "logo": "https://example.com/logo.png",
-        "url": "https://example.com",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+82-010-8731-0142",
-            "contactType": "customer service",
-            "email": "help@example.com"
-        }
-    }
+        // LocalBusiness 스키마 추가
+        const localBusinessSchema = {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "강서 노래방 가격 정보",
+            "telephone": "010-8731-0142",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "강서",
+                "addressCountry": "KR"
+            }
+        };
+
+        // Organization 스키마 추가
+        const organizationSchema = {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "강서 노래방 가격 정보",
+            "logo": "https://example.com/images/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "010-8731-0142",
+                "contactType": "customer service"
+            }
+        };
+
+        // FAQPage 스키마 추가
+        const faqSchema = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                "@type": "Question",
+                "name": "강서 노래방에서 2인이면 몇 시간 이용할 수 있나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "2인 기준으로는 보통 2-3시간 이용 가능합니다. 기기당 추가 요금이 발생하지 않기 때문에 가격 대비 효율적인 이용이 가능합니다."
+                }
+            },{
+                "@type": "Question",
+                "name": "강서 노래방에서 안주와 함께 이용할 수 있나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "네, 대부분의 강서 지역 노래방에서 안주 주문 가능합니다. 치킨, 피자, 과일 안주 등 다양한 메뉴를 제공합니다."
+                }
+            },{
+                "@type": "Question",
+                "name": "강서 노래방에서 현금 할인 혜택이 있나요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "네, 현금 결제 시 5-10%의 할인 혜택을 제공하는 곳이 많습니다. 카드 결제 시에는 적용되지 않을 수 있으니 참고하세요."
+                }
+            }]
+        };
+
+        // 스키마 삽입
+        const head = document.head;
+        const script1 = document.createElement('script');
+        script1.type = 'application/ld+json';
+        script1.textContent = JSON.stringify(breadcrumbSchema);
+        head.appendChild(script1);
+
+        const script2 = document.createElement('script');
+        script2.type = 'application/ld+json';
+        script2.textContent = JSON.stringify(localBusinessSchema);
+        head.appendChild(script2);
+
+        const script3 = document.createElement('script');
+        script3.type = 'application/ld+json';
+        script3.textContent = JSON.stringify(organizationSchema);
+        head.appendChild(script3);
+
+        const script4 = document.createElement('script');
+        script4.type = 'application/ld+json';
+        script4.textContent = JSON.stringify(faqSchema);
+        head.appendChild(script4);
     </script>
 </body>
 </html>
