@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ahyeon-nightlife-note.sangsu-hotplace-info.xyz/sitemap.xml
