@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ahyeon-nightlife-note.sangsu-hotplace-info.xyz/sitemap.xml
+Sitemap: https://ahyeon-nightlife-note.sangsu-hotplace-info.xyz/sitemap-pages.xml
